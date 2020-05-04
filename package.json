@@ -1,0 +1,21 @@
+{
+  "name": "aruppi",
+  "version": "1.0.0",
+  "description": "Aruppi is a custom API for use on android app.",
+  "main": "./src/api/api.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "aruppi",
+    "animeflv api",
+    "anime",
+    "anime api"
+  ],
+  "dependencies": {
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "morgan": "^1.9.1",
+    "xml2js": "^0.4.23"
+  }
+}
